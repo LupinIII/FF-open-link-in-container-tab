@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Open Link In Container",
+	"version": "2026.10.3.1",
+	"description": "Opens URLs in Firefox container tabs and reports available containers to other extensions.",
+	"applications": {
+		"gecko": {
+			"id": "open-link-in-container-tab@lupin"
+		}
+	},
+	"permissions": [
+		"cookies",
+		"contextualIdentities"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}
